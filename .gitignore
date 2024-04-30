@@ -1,0 +1,21 @@
+# macOS 
+.DS_Store
+
+# python
+__pycache__
+*.pyc
+.mypy_cache
+.pytest_cache
+
+# stan
+**/stan/*/*
+!**/stan/*/*.stan
+
+# VScode
+.vscode
+
+# asdf
+.tool-versions
+
+# vim
+**/.*.swp
